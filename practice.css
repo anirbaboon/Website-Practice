@@ -1,0 +1,84 @@
+
+/* 3 different ways to choose color!-->
+
+body{
+    background-color: black
+
+}
+#p1{
+    color: pink;
+}
+#p2{
+    color:rgb(102,222,255)
+}
+#p3{
+    color:#59ff5f
+}
+#p4{
+    color: hsl(283,100%, 64%)
+}
+
+ */
+
+/* fonts - you can access way more fonts through setting up google fonts, just check out his fonts video if you ever need to
+
+h1{
+    font-family: "sans-serif", "arial", "Impact";
+    font-size: 30px;
+}
+p{
+    font-family: "Times New Roman", "arial", "sans-serif";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+ */
+
+/* borders
+
+h1{
+    border: 3px solid skyblue;
+    border-radius: 5px;
+}
+p{
+    border-top: 3px dashed red;
+    border-bottom: 3px dashed red;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+
+    border-radius: 5px;
+}
+
+ */
+
+/* shadows */2
+
+h1{
+    text-shadow: 2px 1px 2px black, -2px -1px 2px red;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-color: pink;
+    box-shadow: 5px 2px 2px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
