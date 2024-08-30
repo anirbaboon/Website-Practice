@@ -1,0 +1,54 @@
+
+body {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 400px 600px 1000px;
+    gap: 5vh 5vh;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 100vh;
+
+    background-color: black;
+    color: floralwhite;
+    font-size: medium;
+    margin: 10px;
+    padding: 10px;
+}
+
+#myname {
+    grid-area: 1 /1/ span 1 / span 3;
+}
+
+#myimage{
+    grid-area: 2/1/span 1/span 1;
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    max-height:100%;
+}
+
+#mybio {
+    grid-area: 2/ 2/ span 1/ span 2;
+    justify-content: left;
+    text-align: left;
+    align-content: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
